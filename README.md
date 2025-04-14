@@ -8,27 +8,28 @@ Before you get started, make sure you have the following prerequisites:
 Rooted Device: Ensure your Android device is rooted using Magisk.
 Magisk Installed: Download and install the latest version of Magisk.
 
-Step-by-Step Guide
+## Step-by-Step Guide
 Follow these steps to install a new certificate to the system store or move an existing certificate from the user store to the system store:
-Download Allow-All-CertFixer:
+## 1. Download Allow-All-CertFixer:
+```bash
+git clone https://github.com/MasterCode112/Allow_all_Cert_Fixer.git
+```
 
-Go to the Allow-All-Cert-Fixer GitHub repository and download the latest version of the Allow-All-Cert-Fixer module.
-
-2. Install Allow-All-CertFixer:
+### 2. Install Allow-All-CertFixer:
 Open the Magisk Manager app on your device.
-Go to the "Modules" section.
-Tap on the "Install from Storage" button.
-Select the downloaded Allow-All-CertFixer zip file.
-Once the installation is complete, reboot your device.
+- Go to the `"Modules"` section.
+- Tap on the `"Install from Storage"` button.
+- Select the downloaded `Allow-All-CertFixer zip` file.
+- Once the installation is complete, reboot your device.
 
-3. Install Your Certificate:
-If you need to install a new certificate, go to your device's settings and install the certificate as you normally would. Allow-All-Cert-Fixer will automatically move it from the user store to the system store during boot.
+### 3. Install Your Certificate:
+If you need to install a new certificate, go to your device's settings and install the certificate as you normally would. `Allow-All-Cert-Fixer` will automatically move it from the user store to the system store during boot.
 
-4. Verify the Certificate:
+### 4. Verify the Certificate:
 After rebooting, you can verify that the certificate has been moved to the system store. Open your browser or any app that requires the certificate and check if it recognizes and trusts the certificate.
 
-Benefits of Using Allow-All-Cert-Fixer
+### Benefits of Using Allow-All-Cert-Fixer
 Using Allow-All-Cert-Fixer offers several benefits:
-Enhanced Security: Ensures that your certificates are trusted by the system, enhancing the security of your device.
-App Compatibility: This makes it easier for apps to recognize and trust the certificates.
-Simplified Process: Automates the process of moving certificates, saving you time and effort.
+1. Enhanced Security: Ensures that your certificates are trusted by the system, enhancing the security of your device.
+2. App Compatibility: This makes it easier for apps to recognize and trust the certificates.
+3. Simplified Process: Automates the process of moving certificates, saving you time and effort.
